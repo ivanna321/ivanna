@@ -1,0 +1,384 @@
+
+<html>
+
+
+<head>
+  <title>De Provienen los Platillos</title>
+  <style>
+     body{
+font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  background: url("img/11.jpg");
+  background-size: cover;
+  background-repeat: no repeat;
+  background-attachment: fixed;
+}
+  
+     body{
+  font-family:Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: justify;    
+}
+
+.justify-text{
+ text-align: justify;
+ text-justify: inter-word;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+ .column {
+  float: left;
+  width: 30%;
+  padding:30%;
+  padding-left: 5px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.menu {
+  background-color: white;
+  overflow: hidden;
+}
+
+.menu a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  background-color: red;
+  color: black;
+}
+ footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #red;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: pink;
+}
+
+ .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+ .footer-content {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+ 
+ .footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+  color: black;
+}
+ .social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+ .socials img{
+  width: 50px;
+  height: 50px;
+  padding-left: 10px;
+}
+ .socials a {
+  text-decoration: none;
+  color: #00FF00;
+  padding: 10px;
+ 
+  border-radius: 50%;
+}
+ 
+ .socials a i {
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color .4s ease;
+}
+ .footer-bottom {
+  background: #000;
+  height: 75px;
+  display: flex;
+  padding: 20px;
+  padding-bottom: 78px;
+
+  .text-footer {
+    display:block
+
+
+     }
+   }
+
+   .footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+   }
+
+   .footer-bottom p a {
+     color: #44bae8;
+     font-size: 16px;
+     text-decoration: none;
+   }
+   
+   .footer-bottom span {
+    text-transform:uppercase;
+    opacity: .4;
+    font-weight: 200;
+   }
+
+   .footer-menu {
+    width: 50%;
+   margin-left: 45%;
+   padding-top: 73px;
+
+   }
+
+   .footer-menu {
+    display: flex;
+   }
+   
+   .footer-menu ul li{
+    padding-right: 10px;
+    display: block;
+   }
+
+   .footer-menu ul li a {
+    color: coral;
+    text-decoration: none;
+   }
+
+   .footer-menu ul li a:hover {
+    color: #27bcda;
+   }
+.slider {
+  max-width: 400px;
+  height: 225px;
+  margin: 5% auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  background-color: #333;
+}
+.slider input[type="radio"] {
+  display: none;
+}
+.slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  transform: scale(0);
+  opacity: 0;
+  transition: all 0.5s ease-in;
+  outline: 1px solid transparent;
+}
+
+.slider input[type="radio"]:checked ~ img {
+  
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+.slider input[type="radio"] + label {
+  position: relative;
+  z-index: 100;
+  margin: 10px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #000;
+  background-color: hsla(0, 0%, 100%, 1);
+}
+.slider input[type="radio"]:checked + label {
+  box-shadow: 0 0 0 2px #000,
+              0 0 0 2px #fff inset;
+  background-color: blue;
+}
+label:hover {
+  cursor: pointer;
+}
+
+ </style>
+</head>
+
+<body bgcolor=black>
+
+<ul class="menu">
+<a href="Mis 10 Platillos Favoritos.html"> Mis 10 Platillos Favoritos</a>
+<a href="proviene.html">proviene</a>
+<a href="Recetas.html">Recetas</a>
+<a href=""> </a>
+<a href=""> </a>
+</ul>
+
+
+<div class="justify-text">
+
+<body>
+<strong> <p> <font size=5> <marquee scrollamount=13>  
+"De donde proviene los platillos"
+</marquee> </font> <br> </p> </strong>
+
+<div class="slider">
+
+  <div class="diapositiva">
+    <input type="radio" name="boton" id="boton1" checked>
+    <label for="boton1"></label>
+    <img src="img/8.jpg">
+  </div>
+
+  <div class="diapositiva">
+    <input type="radio" name="boton" id="boton2">
+    <label for="boton2"></label>
+    <img src="img/6.jpg">
+  </div>
+
+  <div class="diapositiva">
+    <input type="radio" name="boton" id="boton3">
+    <label for="boton3"></label>
+    <img src="img/3.jpg">
+  </div>
+
+  <div class="diapositiva">
+    <input type="radio" name="boton" id="boton4">
+    <label for="boton4"></label>
+    <img src="img/4.jpg">
+  </div>
+
+  <div class="diapositiva">
+    <input type="radio" name="boton" id="boton5">
+    <label for="boton5"></label>
+    <img src="img/5.jpg">
+  </div>
+
+</div>
+<p> <font size=6 color=black > el spaguetti  se originó en China y el proceso de fabricación fue parcialmente asumido por la cocina árabe, en cualquier caso es a Italia a quien le corresponde el mérito de haber inventado esta pasta seca.</a> <br> </p>
+
+<font color=red size=5>
+
+
+<center> <img src="img/1.jpg"width=50% height=50%> </center>
+
+<center>
+El origen real de la hamburguesa actual es el Rundstück warm, un sándwich de cerdo típico de Alemania que, traducido, significa “pedazo redondo caliente” y que es el ancestro de la archiconocida hamburguesa.
+</center>
+
+<center> <img src="img/2.jpg"width=50% height=50%> </center>
+
+<center>
+Es en el siglo XVII en Italia, concretamente en Nápoles, cuando aparece la pizza como plato popular tal y como la conocemos hoy en día.
+
+</center>
+
+<center> <img src="img/3.jpg"width=50% height=50%> </center>
+
+<center>
+Las Entomatadas son un platillo clásico de la cocina mexicana que ha sido disfrutado durante generaciones. Su origen se remonta a la época prehispánica, donde las tortillas de maíz eran una base alimenticia común en las culturas mesoamericanas.
+
+</center>
+
+<center> <img src="img/5.jpg"width=50% height=50%> </center>
+
+<center>
+El menudo blanco o pancita al estilo Sinaloa, es una comida que se prepara con estómago de res y patas,
+
+</center>
+
+<center> <img src="img/6.jpg"width=50% height=50%> </center>
+
+<center>
+Dicen, otros historiadores, que estos tacos proceden de Grecia, una carne asada en un horno vertical colocada en pan de pita y servida con papas fritas, tomate, cebolla y salsa tzatziki.
+
+</center>
+
+<center> <img src="img/7.jpg"width=50% height=50%> </center>
+
+<center>
+El taco de barbacoa es un platillo icónico de la gastronomía mexicana, pero ¿sabes dónde se originó? El origen del taco de barbacoa se remonta a la época prehispánica en México. Los pueblos indígenas ya practicaban la técnica de cocinar la carne al aire libre, utilizando una estructura de piedras llamada "barbacoa".
+</center>
+
+<center> <img src="img/8.jpg"width=50% height=50%> </center>
+
+<center>
+Existen diferentes versiones de cómo nacieron los chilaquiles. Algunos señalan que este platillo proviene de los aztecas, otros dicen que fueron creados durante el choque de culturas en la Nueva España, mientras que algunos cuentan que surgieron en un convento. 
+</center>
+
+<center> <img src="img/9.jpg"width=50% height=50%> </center>
+
+<center>
+El flan tiene una larga historia que se remonta a la antigua Roma, donde se preparaba un postre similar llamado «lac conorum». Los romanos lo elaboraban con leche, huevos, miel y aromatizantes, y su popularidad creció a medida que el Imperio Romano se expandió por Europa. Con la llegada de la Edad Media, la receta del flan se extendió a lo largo de la región mediterránea, llegando a España y Portugal.
+
+</center>
+
+<center> <img src="img/10.jpg"width=50% height=50%> </center>
+
+<body>
+
+
+
+
+<footer>
+    <div class="footer-content">
+      <div class="socials">
+        <img class="img-icon" src="img/iconos/1.jpg">
+        <img class="img-icon" src="img/iconos/2.jpg">
+        <img class="img-icon" src="img/iconos/3.jpg">
+        <img class="img-icon" src="img/iconos/4.jpg">
+        <img class="img-icon" src="img/iconos/5.jpg">
+        <img class="img-icon" src="img/iconos/6.jpg">
+        <img class="img-icon" src="img/iconos/7.jpg">
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+  <div class="text-footer" style="width: 50%">
+    <font size=4 color=coral>
+      <p>copyright &copy; <a href="#">Master Chef</a> </p> </font>
+    
+    
+    <p> Ivanna Cordova </p>
+    <p>608-INFO</p> 
+    <p> 17 de Junio del 2024 </p>
+  </div>
+  <div class="footer-menu"style="width: 50%">
+    <ul class="f-menu">
+      <li><a href="practica 8.html">Inicio</a></li>
+      <li><a href=.html">Acerca</a></li>
+      <li><a href="Contactanos.html">Contacto</a></li>
+    </ul>
+  </div>
+
+</div>
+
+    </footer>
+
+
+</body>
+</html>
